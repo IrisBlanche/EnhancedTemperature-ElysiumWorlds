@@ -1,9 +1,9 @@
 {
 	"author" : "Iris Blanche",
-	"description" : "This brings back the temperature system.\nFU Compatibility Patch\n\n~ Iris ~",
-	"friendlyName" : "^green;EHT - FU Compat",
-	"name" : "EHT - FU Compat",
+	"description" : "This brings back the temperature system.\nBetter Barren - Elysium Worlds Compatibility Patch\n\n~ Iris ~",
+	"friendlyName" : "^green;EHT - BBEW Compat",
+	"name" : "EHT - BBEW Compat",
 	"priority" : 80001,
 	"version" : "1.0",
-	"requires" : ["EnhancedTemperature", "FrackinUniverse"]
+	"requires" : ["EnhancedTemperature", "Better Barren"]
 }
