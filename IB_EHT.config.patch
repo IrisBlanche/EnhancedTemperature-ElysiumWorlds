@@ -1,371 +1,65 @@
-// #######################################
-// EHT FU config patch
-// #######################################
 [
-	// FU Planet Types
-	{"op" : "add", "path" : "/planetTypes/arboreal", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
+	{
+		"op" : "add",
+		"path" : "/planetTypes/elysium",
+		"value" : {
+			"day" : [ -70, 5, 22, 20, 18, 15, 23, 70 ],
+			"night" : [ -70, 1, 12, 14, 18, 15, 23, 70 ],
+			"skipCheck" : false
 		}
 	},
-	{"op" : "add", "path" : "/planetTypes/arboreal2", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
+	{
+		"op" : "add",
+		"path" : "/planetTypes/elysiumearth",
+		"value" : {
+			"day" : [ -70, 5, 22, 20, 18, 15, 23, 70 ],
+			"night" : [ -70, 1, 12, 14, 18, 15, 23, 70 ],
+			"skipCheck" : false
 		}
 	},
-	{"op" : "add", "path" : "/planetTypes/arborealdark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
+	{
+		"op" : "add",
+		"path" : "/planetTypes/elysiummidnight",
+		"value" : {
+			"day" : [ -70, -35, -25, -17, 1, 9, 26, 70 ],
+			"night" : [ -70, -38, -31, -21, 1, 9, 26, 70 ],
+			"skipCheck" : false
 		}
 	},
-	{"op" : "add", "path" : "/planetTypes/arcticdark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
+	{
+		"op" : "add",
+		"path" : "/planetTypes/elysiumocean",
+		"value" : {
+			"day" : [ -70, 5, 25, 23, 18, 15, 26, 70 ],
+			"night" : [ -70, -10, -7, 14, 18, 15, 26, 70 ],
+			"skipCheck" : false
 		}
 	},
-	{"op" : "add", "path" : "/planetTypes/atropus", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
+	{
+		"op" : "add",
+		"path" : "/planetTypes/elysiumscorchedcity",
+		"value" : {
+			"day" : [ -70, 13, 47, 36, 28, 20, 26, 70 ],
+			"night" : [ -70, 11, 39, 28, 23, 20, 26, 70 ],
+			"skipCheck" : false
 		}
 	},
-	{"op" : "add", "path" : "/planetTypes/atropusdark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
+	{
+		"op" : "add",
+		"path" : "/planetTypes/elysiumsnow",
+		"value" : {
+			"day" : [ -70, -18, -4, 0, 2, 10, 26, 70 ],
+			"night" : [ -70, -25, -15, -5, 2, 10, 26, 70 ],
+			"skipCheck" : false
 		}
 	},
-	{"op" : "add", "path" : "/planetTypes/barren2", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/barren3", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/bloodstone", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/bloodstonesea", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/bog", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/chromatic", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/crystalmoon", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/desertwastes", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/desertwastesdark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/eden", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/frozenvolcanic", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/fugasgiant", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/fungus", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/icecloudswastesurface", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/icemoon", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/icewaste", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/icewastedark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/infernus", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/infernusdark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/lightless", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/magmadark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/metallicmoon", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/moon_desert", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/moon_shadow", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/moon_stone", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/moon_toxic", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/moon_volcanic", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/mountainous", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/nitrogensea", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/penumbra", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/protoworld", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/protoworlddark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/slimeworld", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/snowdark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/sulphuric", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/sulphuricdark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/sulphuricocean", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/tabularasa", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/tarball", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/thickjungle", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/tidewater", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/tundradark", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/urbanwasteland", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
-		}
-	},
-	{"op" : "add", "path" : "/planetTypes/urbanwasteland2", "value" :
-		{
-			"day"		: [-70, 5, 25, 23, 18, 15, 26, 70],
-			"night"		: [-70, -10, -7, 14, 18, 15, 26, 70],
-			"skipCheck"	: false
+	{
+		"op" : "add",
+		"path" : "/planetTypes/elysiumvolcanic",
+		"value" : {
+			"day" : [ -70, 16, 54, 43, 38, 34, 42, 70 ],
+			"night" : [ -70, -10, 49, 41, 38, 34, 42, 70 ],
+			"skipCheck" : false
 		}
 	}
-
-	// FU Weather Types
-	//{"op" : "add", "path" : "/weathertypes/-", "value" : {} },
-
-	// FU Heat sources
-	//{"op" : "add", "path" : "/heatSources/-", "value" : {} },
-
-	// FU Hybrid sources
-	//{"op" : "add", "path" : "/hybridSources/-", "value" : {} },
-
-	// FU Liquids
-	//{"op" : "add", "path" : "/liquid/-", "value" : {} },
-
-	// FU Equip
-	//{"op" : "add", "path" : "/equip/-", "value" : {} }
 ]
