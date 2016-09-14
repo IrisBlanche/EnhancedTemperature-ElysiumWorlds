@@ -4,7 +4,7 @@
   "friendlyName" : "EHT - Better Barren Elysium Worlds Compatibility Patch",
   "link" : "steam://url/CommunityFilePage/763412049",
   "name" : "EHT - BBEW Compat",
-  "requires" : ["EnhancedTemperature", "Better Barren"],
+  "includes" : ["EnhancedTemperature", "Better Barren"],
   "steamContentId" : "763412049",
   "version" : "1.0"
 }
