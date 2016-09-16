@@ -1,10 +1,10 @@
 {
   "author" : "Iris Blanche",
-  "description" : "This brings back the temperature system.\nBetter Barren - Elysium Worlds Compatibility Patch\n\n~ Iris ~",
-  "friendlyName" : "EHT - Better Barren Elysium Worlds Compatibility Patch",
+  "description" : "Better Barren - Elysium Worlds Compatibility Patch\n\n~ Iris ~",
+  "friendlyName" : "EHT - Better Barren - Elysium Worlds Compatibility Patch",
+  "includes" : ["EnhancedTemperature", "Better Barren"],
   "link" : "steam://url/CommunityFilePage/763412049",
   "name" : "EHT - BBEW Compat",
-  "includes" : ["EnhancedTemperature", "Better Barren"],
   "steamContentId" : "763412049",
-  "version" : "1.0"
+  "version" : "1.2"
 }
