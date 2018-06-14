@@ -1,10 +1,13 @@
 {
-  "author" : "Iris Blanche",
-  "description" : "Better Barren - Elysium Worlds Compatibility Patch\n\n~ Iris ~",
-  "friendlyName" : "EHT - Better Barren - Elysium Worlds Compatibility Patch",
-  "includes" : ["EnhancedTemperature", "Better Barren"],
-  "link" : "steam://url/CommunityFilePage/763412049",
-  "name" : "EHT - BBEW Compat",
-  "steamContentId" : "763412049",
-  "version" : "1.3"
+	"author": "Iris Blanche",
+	"description": "Better Barren - Elysium Worlds Compatibility Patch\n\n~ Iris ~",
+	"friendlyName": "EHT - Better Barren - Elysium Worlds Compatibility Patch",
+	"includes": [
+		"EnhancedTemperature",
+		"Better Barren"
+	],
+	"link": "steam://url/CommunityFilePage/763412049",
+	"name": "EHT - BBEW Compat",
+	"steamContentId": "763412049",
+	"version": "1.3"
 }

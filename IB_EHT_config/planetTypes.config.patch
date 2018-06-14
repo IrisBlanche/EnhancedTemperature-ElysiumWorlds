@@ -1,65 +1,191 @@
 [
 	{
-		"op" : "add",
-		"path" : "/planetTypes/elysium",
-		"value" : {
-			"day" : [ -70, 5, 22, 20, 18, 15, 23, 70 ],
-			"night" : [ -70, 1, 12, 14, 18, 15, 23, 70 ],
-			"skipCheck" : false
+		"op": "add",
+		"path": "/planetTypes/elysium",
+		"value": {
+			"day": [
+				-70,
+				5,
+				22,
+				20,
+				18,
+				15,
+				23,
+				70
+			],
+			"night": [
+				-70,
+				1,
+				12,
+				14,
+				18,
+				15,
+				23,
+				70
+			],
+			"skipCheck": false
 		}
 	},
 	{
-		"op" : "add",
-		"path" : "/planetTypes/elysiumearth",
-		"value" : {
-			"day" : [ -70, 5, 22, 20, 18, 15, 23, 70 ],
-			"night" : [ -70, 1, 12, 14, 18, 15, 23, 70 ],
-			"skipCheck" : false
+		"op": "add",
+		"path": "/planetTypes/elysiumearth",
+		"value": {
+			"day": [
+				-70,
+				5,
+				22,
+				20,
+				18,
+				15,
+				23,
+				70
+			],
+			"night": [
+				-70,
+				1,
+				12,
+				14,
+				18,
+				15,
+				23,
+				70
+			],
+			"skipCheck": false
 		}
 	},
 	{
-		"op" : "add",
-		"path" : "/planetTypes/elysiummidnight",
-		"value" : {
-			"day" : [ -70, -35, -25, -17, 1, 9, 26, 70 ],
-			"night" : [ -70, -38, -31, -21, 1, 9, 26, 70 ],
-			"skipCheck" : false
+		"op": "add",
+		"path": "/planetTypes/elysiummidnight",
+		"value": {
+			"day": [
+				-70,
+				-35,
+				-25,
+				-17,
+				1,
+				9,
+				26,
+				70
+			],
+			"night": [
+				-70,
+				-38,
+				-31,
+				-21,
+				1,
+				9,
+				26,
+				70
+			],
+			"skipCheck": false
 		}
 	},
 	{
-		"op" : "add",
-		"path" : "/planetTypes/elysiumocean",
-		"value" : {
-			"day" : [ -70, 5, 25, 23, 18, 15, 26, 70 ],
-			"night" : [ -70, -10, -7, 14, 18, 15, 26, 70 ],
-			"skipCheck" : false
+		"op": "add",
+		"path": "/planetTypes/elysiumocean",
+		"value": {
+			"day": [
+				-70,
+				5,
+				25,
+				23,
+				18,
+				15,
+				26,
+				70
+			],
+			"night": [
+				-70,
+				-10,
+				-7,
+				14,
+				18,
+				15,
+				26,
+				70
+			],
+			"skipCheck": false
 		}
 	},
 	{
-		"op" : "add",
-		"path" : "/planetTypes/elysiumscorchedcity",
-		"value" : {
-			"day" : [ -70, 13, 47, 36, 28, 20, 26, 70 ],
-			"night" : [ -70, 11, 39, 28, 23, 20, 26, 70 ],
-			"skipCheck" : false
+		"op": "add",
+		"path": "/planetTypes/elysiumscorchedcity",
+		"value": {
+			"day": [
+				-70,
+				13,
+				47,
+				36,
+				28,
+				20,
+				26,
+				70
+			],
+			"night": [
+				-70,
+				11,
+				39,
+				28,
+				23,
+				20,
+				26,
+				70
+			],
+			"skipCheck": false
 		}
 	},
 	{
-		"op" : "add",
-		"path" : "/planetTypes/elysiumsnow",
-		"value" : {
-			"day" : [ -70, -18, -4, 0, 2, 10, 26, 70 ],
-			"night" : [ -70, -25, -15, -5, 2, 10, 26, 70 ],
-			"skipCheck" : false
+		"op": "add",
+		"path": "/planetTypes/elysiumsnow",
+		"value": {
+			"day": [
+				-70,
+				-18,
+				-4,
+				0,
+				2,
+				10,
+				26,
+				70
+			],
+			"night": [
+				-70,
+				-25,
+				-15,
+				-5,
+				2,
+				10,
+				26,
+				70
+			],
+			"skipCheck": false
 		}
 	},
 	{
-		"op" : "add",
-		"path" : "/planetTypes/elysiumvolcanic",
-		"value" : {
-			"day" : [ -70, 16, 54, 43, 38, 34, 42, 70 ],
-			"night" : [ -70, -10, 49, 41, 38, 34, 42, 70 ],
-			"skipCheck" : false
+		"op": "add",
+		"path": "/planetTypes/elysiumvolcanic",
+		"value": {
+			"day": [
+				-70,
+				16,
+				54,
+				43,
+				38,
+				34,
+				42,
+				70
+			],
+			"night": [
+				-70,
+				-10,
+				49,
+				41,
+				38,
+				34,
+				42,
+				70
+			],
+			"skipCheck": false
 		}
 	}
 ]

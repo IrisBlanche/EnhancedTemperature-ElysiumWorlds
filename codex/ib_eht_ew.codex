@@ -1,1 +1,17 @@
-{"contentPages":["^cyan; * Table of contents *^white;\u000a\u000aPage 2: Planet temperatures\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000aThank you for using the ^orange;EnhancedTemperature^white; Mod!\u000a ~ Iris Blanche ~","^cyan; * Planet temperatures^white;\u000a\u000a^orange;Elysium:^white;\u000aDay: ^#C0C0C0;22C^white;\u000aNight: ^#C0C0C0;12C^white;\u000aEPP needed: ^green;none^white;\u000a\u000a^orange;Elysium-Snow:^white;\u000aDay: ^#C0C0C0;-4C^white;\u000aNight: ^#C0C0C0;-15C^white;\u000aEPP needed: ^green;none^white;","^cyan; * Planet temperatures^white;\u000a\u000a^orange;Elysium-Dark:^white;\u000aDay: ^#C0C0C0;35C^white;\u000aNight: ^#C0C0C0;-14C^white;\u000aEPP needed: ^green;Heating EPP^white;\u000a\u000a^orange;Elysium-Earth:^white;\u000aDay: ^#C0C0C0;22C^white;\u000aNight: ^#C0C0C0;12C^white;\u000aEPP needed: ^green;none^white;","^cyan; * Planet temperatures^white;\u000a\u000a^orange;Elysium-Scorched:^white;\u000aDay: ^#C0C0C0;47C^white;\u000aNight: ^#C0C0C0;39C^white;\u000aEPP needed: ^green;Cooling^white;\u000a\u000a^orange;Elysium-Ocean:^white;\u000aDay: ^#C0C0C0;25C^white;\u000aNight: ^#C0C0C0;-7C^white;\u000aEPP needed: ^green;none^white;","^cyan; * Planet temperatures^white;\u000a\u000a^orange;Elysium-Volcaninc:^white;\u000aDay: ^#C0C0C0;54C^white;\u000aNight: ^#C0C0C0;49C^white;\u000aEPP needed: ^green;Cooling^white;"],"description":"Compatibility information.","icon":"ib_eht.png","id":"ib_eht_ew","itemConfig":{"price":0,"rarity":"common"},"title":"EHT - Elysium Worlds"}
+{
+	"contentPages": [
+		"^cyan; * Table of contents *^white;\n\nPage 2: Planet temperatures\n\n\n\n\n\n\n\n\n\nThank you for using the ^orange;EnhancedTemperature^white; Mod!\n ~ Iris Blanche ~",
+		"^cyan; * Planet temperatures^white;\n\n^orange;Elysium:^white;\nDay: ^#C0C0C0;22C^white;\nNight: ^#C0C0C0;12C^white;\nEPP needed: ^green;none^white;\n\n^orange;Elysium-Snow:^white;\nDay: ^#C0C0C0;-4C^white;\nNight: ^#C0C0C0;-15C^white;\nEPP needed: ^green;none^white;",
+		"^cyan; * Planet temperatures^white;\n\n^orange;Elysium-Dark:^white;\nDay: ^#C0C0C0;35C^white;\nNight: ^#C0C0C0;-14C^white;\nEPP needed: ^green;Heating EPP^white;\n\n^orange;Elysium-Earth:^white;\nDay: ^#C0C0C0;22C^white;\nNight: ^#C0C0C0;12C^white;\nEPP needed: ^green;none^white;",
+		"^cyan; * Planet temperatures^white;\n\n^orange;Elysium-Scorched:^white;\nDay: ^#C0C0C0;47C^white;\nNight: ^#C0C0C0;39C^white;\nEPP needed: ^green;Cooling^white;\n\n^orange;Elysium-Ocean:^white;\nDay: ^#C0C0C0;25C^white;\nNight: ^#C0C0C0;-7C^white;\nEPP needed: ^green;none^white;",
+		"^cyan; * Planet temperatures^white;\n\n^orange;Elysium-Volcaninc:^white;\nDay: ^#C0C0C0;54C^white;\nNight: ^#C0C0C0;49C^white;\nEPP needed: ^green;Cooling^white;"
+	],
+	"description": "Compatibility information.",
+	"icon": "ib_eht.png",
+	"id": "ib_eht_ew",
+	"itemConfig": {
+		"price": 0,
+		"rarity": "common"
+	},
+	"title": "EHT - Elysium Worlds"
+}

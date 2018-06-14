@@ -1,3 +1,9 @@
 [
-	{ "op" : "add",	"path": "/defaultBlueprints/tier1/-", "value": {"item": "ib_eht_ew-codex"}}
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/-",
+		"value": {
+			"item": "ib_eht_ew-codex"
+		}
+	}
 ]
